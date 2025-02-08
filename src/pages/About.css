@@ -1,0 +1,23 @@
+/* /src/pages/About.css */
+
+.about-container {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: aliceblue;
+  }
+  
+  .about-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: aliceblue;
+  }
