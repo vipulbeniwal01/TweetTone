@@ -66,6 +66,12 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.wallet-image {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    margin-right: 0.8rem; /* Space between image and buttons */
+}
+
 /* Main Content Styling */
 .main {
     flex: 1;
