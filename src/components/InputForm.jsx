@@ -16,14 +16,14 @@ const InputForm = ({ twitterId, setTwitterId, setSentiment, setTweets }) => {
     setTweets([]);
 
     try {
-      const data = await fetchAndAnalyze(twitterId);
-      setTweets(data.tweets);
-      setSentiment(data.overallSentiment);
-    } catch (err) {
-      if (err.message === 'No tweets found for this user.') {
-        setError('This Twitter user has no tweets.');
+      const response = await fetchAndAnalyze(twitterId);
+      setSentiment(response.overallSentiment);
+      setTweets(response.tweets);
+    } catch (error) {
+      if (error.response && error.response.data) {
+        setError(error.response.data.error);
       } else {
-        setError(err.message || 'An error occurred');
+        setError('An unexpected error occurred.');
       }
     } finally {
       setLoading(false);
