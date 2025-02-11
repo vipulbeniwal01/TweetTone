@@ -42,7 +42,7 @@ const Token = () => {
                                 <h1>Solana Token Launchpad</h1>
                                 <div className="wallet-buttons">
                                     {/* Add your image here */}
-                                    <img src="path/to/your/image.png" alt="Wallet Token" className="wallet-image" />
+                                    {/* <img src="path/to/your/image.png" alt="Wallet Token" className="wallet-image" /> */}
                                     {/* Wallet connection and disconnection buttons */}
                                     <WalletMultiButton className="wallet-button" />
                                     <WalletDisconnectButton className="wallet-button" />
