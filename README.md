@@ -15,6 +15,10 @@ TweetTone is a web application designed to analyze the sentiment of any Twitter 
 - **Backend**: Node.js with Express
 - **Blockchain Integration**: Solana for token creation
 
+## Important Note
+
+The backend code for this project is not included in this repository. It is hosted separately and is required for the full functionality of the application, such as fetching tweets and performing sentiment analysis.
+
 ## Getting Started
 
 ### Prerequisites
