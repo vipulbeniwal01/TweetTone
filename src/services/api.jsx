@@ -3,8 +3,8 @@
 import axios from 'axios';
 
 // const API_BASE_URL = 'https://twiter-sentiment-analyser-server.onrender.com/api'
-// const API_BASE_URL = 'http://localhost:4000/api'
-const API_BASE_URL = 'https://server-ricl.onrender.com/api'
+const API_BASE_URL = 'http://localhost:4000/api'
+// const API_BASE_URL = 'https://server-ricl.onrender.com/api'
 
 const api = axios.create({
     baseURL: API_BASE_URL,

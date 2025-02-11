@@ -7,6 +7,32 @@
   margin-top: 82px;
 }
 
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .personality-cards {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .personality-card {
+    flex: 1 1 calc(50% - 15px); /* Two cards per row */
+    padding: 12px 20px;
+  }
+}
+
+/* Media query for phones */
+@media (max-width: 480px) {
+  .personality-cards {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .personality-card {
+    flex: 1 1 calc(50% - 10px); /* Two cards per row */
+    padding: 10px 15px;
+  }
+}
+
 .personality-card {
   padding: 15px 25px;
   background-color: #2a42db;
